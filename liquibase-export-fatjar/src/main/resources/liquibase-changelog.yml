@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: test-one-fatjar
+      author: cp
+      changes:
+        - sqlFile:
+            path: V01.0001.create_fatjar_table.sql

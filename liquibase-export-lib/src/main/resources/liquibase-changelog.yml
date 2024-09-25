@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: test-one-lib
+      author: cp
+      changes:
+        - sqlFile:
+            path: V01.0001.create_lib_table.sql
