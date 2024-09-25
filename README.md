@@ -1,17 +1,19 @@
 Liquibase Export Defect Demo
 ============================
 
+Pre-requisites: This assumes you have [installed Liquibase](https://docs.liquibase.com/start/install/home.html) and that it's available via the command line
+
 This repo contains two modules
 - liquibase-export-fatjar
 - liquibase-export-lib
 
-# liquibase-export-fatjar
+### liquibase-export-fatjar
 
 This is a standalone Spring Boot application with Liquibase enabled, with db migration configs and scripts
 
 You can run this from your IDE by running `com.egalitech.liquibase.export.LiquibaseExportApplication`
 
-# liquibase-export-lib
+### liquibase-export-lib
 
 This is a Java library that contains Liquibase migration configs and scripts
 
@@ -48,3 +50,12 @@ This results in the error:
 ```
 Unexpected error running Liquibase: liquibase-changelog.yml does not exist
 ```
+
+References
+==========
+
+Liquibase forum question:
+- https://forum.liquibase.org/t/9771
+
+Stackoverflow question:
+- 
